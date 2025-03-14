@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
       <main className="with-header">{children}</main>
 
       <footer>
-        <div id="copyright">©codeit - 2024</div>
+        <div id="copyright">© 2024</div>
         <div id="footerMenu">
           <Link to="/privacy">Privacy Policy</Link>
           <Link to="/faq">FAQ</Link>
