@@ -1,0 +1,17 @@
+### ✅ 1. 상품 등록 (POST /items/registration)
+POST http://localhost:5050/items/registration
+Content-Type: application/json
+
+{
+  "name": "테스트 상품3",
+  "description": "이것은 테스트 상품입니다.",
+  "price": "50000",
+  "tags": ["테스트", "상품3"],
+  "images": []
+}
+
+### ✅ 2. 전체 상품 목록 조회 (GET /items)
+GET http://localhost:5050/items
+
+### ✅ 3. 특정 상품 조회 (GET /items/:id)
+GET http://localhost:5050/items/1
